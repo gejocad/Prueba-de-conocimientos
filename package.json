@@ -1,8 +1,8 @@
 {
-  "name": "WEATHER",
+  "name": "weather",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gejocad.github.io/ZafiroApp",
+  "homepage": "https://gejocad.github.io/Prueba-de-conocimientos",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
