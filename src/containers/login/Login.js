@@ -5,7 +5,6 @@ import {Link, useHistory} from 'react-router-dom';
 import {toast} from 'react-toastify';
 import {useFormik} from 'formik';
 import * as Yup from 'yup';
-import Button from '../../components/button/Button';
 
 
 const Login = () => {
@@ -156,7 +155,7 @@ const Login = () => {
                                 </div>
                             </div>
                             <div className="col-4">
-                                <Button
+                                <button
                                     block
                                     type="submit"
                                     isLoading={isAuthLoading}
@@ -166,12 +165,12 @@ const Login = () => {
                                     }
                                 >
                                    Iniciar
-                                </Button>
+                                </button>
                             </div>
                         </div>
                     </form>
                     <div className="social-auth-links text-center mt-2 mb-3">
-                        <Button
+                        <button
                             block
                             icon="facebook"
                             onClick={loginByFacebook}
@@ -179,8 +178,8 @@ const Login = () => {
                             disabled={isAuthLoading || isGoogleAuthLoading}
                         >
                             Iniciar con Facebook
-                        </Button>
-                        <Button
+                        </button>
+                        <button
                             block
                             icon="google"
                             theme="danger"
@@ -189,7 +188,7 @@ const Login = () => {
                             disabled={isAuthLoading || isFacebookAuthLoading}
                         >
                             Iniciar con Google
-                        </Button>
+                        </button>
                     </div>
                     <p className="mb-1">
                         <Link to="/forgot-password">

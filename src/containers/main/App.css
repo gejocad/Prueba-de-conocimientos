@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
+.leaflet-container {
+  margin-top: 70px;
+  width: 98vw;
+  height: 30vw;
+}
+.leaflet-div-icon2 {
+  color: black;
+  background-color: transparent;
+  font-weight: 800;
+}
+

@@ -11,7 +11,6 @@ import PrivacyPolicy from '@containers/privacy-policy/PrivacyPolicy';
 import {PublicRoute} from './PublicRoute';
 import {PrivateRoute} from './PrivateRoute';
 import firebase from 'firebase';
-import { startLoadingStudent } from 'src/actions/studentAction';
 
 
 function App() {
@@ -26,7 +25,6 @@ function App() {
       if (user?.uid) {
         dispatch(login(user.uid, user.displayName, user.email, user.photoURL))
         setIsLoogedIn(true)
-        dispatch(startLoadingStudent())
       } else {
         setIsLoogedIn(false)
       }

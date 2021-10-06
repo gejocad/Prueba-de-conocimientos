@@ -5,7 +5,7 @@ import NavBar from "@components/pages/NavBar";
 import WeatherMap from "@components/pages/WeatherMap";
 import WeekConditions from "@components/pages/WeekConditions.jsx";
 
-const Main = () => {
+const Dashboard = () => {
     const [city, setCity] = useState({
         lat: "4.605575533040425",
         lng: "-74.10191003067288",
@@ -19,4 +19,4 @@ const Main = () => {
         </div>
       );
     }
-export default Main;
+export default Dashboard;
