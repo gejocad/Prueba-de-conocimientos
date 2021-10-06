@@ -9,4 +9,17 @@ export const types = {
     uiStartLoading: 'StartLoading',
     uiFinishLoading: 'FinishLoading',
 
+    addStudent: 'Add Student',
+    updateStudent: 'Update Student',
+    loadStudent: 'Load Student',
+    activeStudent: 'Active Student',
+    studentDelete:'Delete students',
+
+    addPrograma: 'Add Programa',
+    updatePrograma: 'Update Programa',
+    loadPrograma: 'Load Programa',
+    activePrograma: 'Active Programa',
+    studentPrograma:'Delete Programa',
+
+    ListarBusqueda: 'ListarBusqueda'
 }

@@ -1,0 +1,37 @@
+@import url('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.min.css');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700');
+
+@import '~admin-lte/plugins/fontawesome-free/css/all.min.css';
+@import '~admin-lte/plugins/icheck-bootstrap/icheck-bootstrap.min.css';
+@import '~admin-lte/dist/css/adminlte.min.css';
+
+@import '~react-toastify/scss/main';
+
+#root {
+    width: 100vw;
+    height: 100vh;
+}
+
+.login {
+    background-color: #010532;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.nav-item {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.nav-link {
+    border: none;
+}
+.space {
+    height:85px;
+}

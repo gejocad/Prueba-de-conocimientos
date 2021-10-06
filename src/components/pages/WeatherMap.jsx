@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Map, TileLayer, Marker } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import petitionFetch from "@actions/petitionFetch.js";
+import petitionFetch from "@actions/petitionFetch";
 
 const WeatherMap = ({ location }) => {
   const [temp, setTemp] = useState("");

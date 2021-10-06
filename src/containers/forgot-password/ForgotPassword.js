@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import {toast} from 'react-toastify';
 import { useDispatch } from 'react-redux';
 import { recoverPassword } from '../../actions/authAction';
-import {useForm} from '../../hooks/useForm';
+import {useForm} from '../../hooks/useForm'
 
 const ForgotPassword = () => {
     

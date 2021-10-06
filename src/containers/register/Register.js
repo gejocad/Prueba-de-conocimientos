@@ -6,6 +6,8 @@ import {toast} from 'react-toastify';
 import {useFormik} from 'formik';
 import * as Yup from 'yup';
 
+import {Button} from '@components';
+
 const Register = () => {
     const [isAuthLoading, setAuthLoading] = useState(false);
     const [isGoogleAuthLoading, setGoogleAuthLoading] = useState(false);
@@ -235,7 +237,7 @@ const Register = () => {
                                 </div>
                             </div>
                             <div className="col-4">
-                                <button
+                                <Button
                                     type="submit"
                                     block
                                     isLoading={isAuthLoading}
@@ -245,12 +247,12 @@ const Register = () => {
                                     }
                                 >
                                     Registrar
-                                </button>
+                                </Button>
                             </div>
                         </div>
                     </form>
                     <div className="social-auth-links text-center">
-                        <button
+                        <Button
                             block
                             icon="facebook"
                             onClick={loginByFacebook}
@@ -258,8 +260,8 @@ const Register = () => {
                             disabled={isAuthLoading || isGoogleAuthLoading}
                         >
                            Registrar con Facebook
-                        </button>
-                        <button
+                        </Button>
+                        <Button
                             block
                             icon="google"
                             theme="danger"
@@ -268,7 +270,7 @@ const Register = () => {
                             disabled={isAuthLoading || isFacebookAuthLoading}
                         >
                             Registrar con Google
-                        </button>
+                        </Button>
                     </div>
                     <Link to="/login" className="text-center">
                         Iniciar sesión
