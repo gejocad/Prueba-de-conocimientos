@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/Prueba-de-conocimientos/static/css/main.4977f7d4.chunk.css",
-    "main.js": "/Prueba-de-conocimientos/static/js/main.ac33daba.chunk.js",
-    "main.js.map": "/Prueba-de-conocimientos/static/js/main.ac33daba.chunk.js.map",
+    "main.css": "/Prueba-de-conocimientos/static/css/main.e691afeb.chunk.css",
+    "main.js": "/Prueba-de-conocimientos/static/js/main.93d09258.chunk.js",
+    "main.js.map": "/Prueba-de-conocimientos/static/js/main.93d09258.chunk.js.map",
     "runtime-main.js": "/Prueba-de-conocimientos/static/js/runtime-main.f0e2e0cc.js",
     "runtime-main.js.map": "/Prueba-de-conocimientos/static/js/runtime-main.f0e2e0cc.js.map",
-    "static/css/2.da98c186.chunk.css": "/Prueba-de-conocimientos/static/css/2.da98c186.chunk.css",
-    "static/js/2.01d316b9.chunk.js": "/Prueba-de-conocimientos/static/js/2.01d316b9.chunk.js",
-    "static/js/2.01d316b9.chunk.js.map": "/Prueba-de-conocimientos/static/js/2.01d316b9.chunk.js.map",
+    "static/css/2.1662c9b4.chunk.css": "/Prueba-de-conocimientos/static/css/2.1662c9b4.chunk.css",
+    "static/js/2.73d15c90.chunk.js": "/Prueba-de-conocimientos/static/js/2.73d15c90.chunk.js",
+    "static/js/2.73d15c90.chunk.js.map": "/Prueba-de-conocimientos/static/js/2.73d15c90.chunk.js.map",
     "index.html": "/Prueba-de-conocimientos/index.html",
-    "static/css/2.da98c186.chunk.css.map": "/Prueba-de-conocimientos/static/css/2.da98c186.chunk.css.map",
-    "static/css/main.4977f7d4.chunk.css.map": "/Prueba-de-conocimientos/static/css/main.4977f7d4.chunk.css.map",
-    "static/js/2.01d316b9.chunk.js.LICENSE.txt": "/Prueba-de-conocimientos/static/js/2.01d316b9.chunk.js.LICENSE.txt"
+    "static/css/2.1662c9b4.chunk.css.map": "/Prueba-de-conocimientos/static/css/2.1662c9b4.chunk.css.map",
+    "static/css/main.e691afeb.chunk.css.map": "/Prueba-de-conocimientos/static/css/main.e691afeb.chunk.css.map",
+    "static/js/2.73d15c90.chunk.js.LICENSE.txt": "/Prueba-de-conocimientos/static/js/2.73d15c90.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/Prueba-de-conocimientos/static/media/fa-solid-900.eeccf4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.f0e2e0cc.js",
-    "static/css/2.da98c186.chunk.css",
-    "static/js/2.01d316b9.chunk.js",
-    "static/css/main.4977f7d4.chunk.css",
-    "static/js/main.ac33daba.chunk.js"
+    "static/css/2.1662c9b4.chunk.css",
+    "static/js/2.73d15c90.chunk.js",
+    "static/css/main.e691afeb.chunk.css",
+    "static/js/main.93d09258.chunk.js"
   ]
 }
