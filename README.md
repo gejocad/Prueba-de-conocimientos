@@ -1,3 +1,7 @@
+## Deploy
+
+https://gejocad.github.io/Prueba-de-conocimientos
+
 ## Available Scripts
 
 In the project directory, you can run:
